@@ -1,0 +1,131 @@
+@import "../css/local-null-style.css";
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Raleway&display=swap");
+
+body {
+    background-color: #27262c;
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+//>>>>>--------------------Login Open--------------------<<<<<
+.login {
+    &__container {
+    }
+
+    &__content {
+        text-align: start;
+        max-width: 530px;
+        margin: 0 auto;
+        padding-top: 289px;
+    }
+
+    &__title {
+        font-family: "Jost", sans-serif;
+        font-size: 76px;
+        line-height: 96px;
+        color: inherit;
+        margin-bottom: 130px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        max-width: 530px;
+        max-height: 270px;
+        margin: 0 auto;
+    }
+}
+//>>>>>--------------------Login Close--------------------<<<<<
+
+//>>>>>--------------------Form Open--------------------<<<<<
+.form {
+    font-family: "Raleway", sans-serif;
+
+    &__input {
+        background: none;
+        border: none;
+        border-bottom: 2px solid #ffffff;
+        color: white;
+        margin-bottom: 24px;
+        padding-bottom: 10px;
+        transition: all 0.4s ease-in-out;
+    }
+    &__input:focus {
+        border-bottom: 2px solid #4044ed;
+    }
+
+    &__btn {
+        padding: 10px 0 10px 0;
+        color: inherit;
+        font-size: 24px;
+        line-height: 36px;
+        background-color: #4044ed;
+        border: 1px solid #4044ed;
+        transition: all 0.4s ease-in-out;
+    }
+    &__btn:hover {
+        background-color: transparent;
+        cursor: pointer;
+    }
+}
+//>>>>>--------------------Form Close--------------------<<<<<
+
+//>>>>>--------------------Inputs Open--------------------<<<<<
+.input-text {
+}
+.input-pass {
+    margin-bottom: 64px;
+}
+//>>>>>--------------------Inputs Close--------------------<<<<<
+
+//>>>>>--------------------Img Open--------------------<<<<<
+.img {
+    position: absolute;
+}
+.ellipse1 {
+    left: 0px;
+    top: 102px;
+    max-width: 914px;
+}
+.ellipse2 {
+    left: 118px;
+    top: 173px;
+    max-width: 76px;
+}
+.polygon {
+    right: 0;
+    bottom: 0;
+    max-width: 336.47px;
+}
+.subtract {
+    right: 0;
+    top: -140.86px;
+    max-width: 1070.76px;
+}
+//>>>>>--------------------Img Close--------------------<<<<<
+
+//>>>>>--------------------Animation Open--------------------<<<<<
+
+@media (max-width: 1215px) {
+    .ellipse1 {
+        display: none;
+    }
+}
+
+@media (max-width: 560px) {
+    .container {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 330px) {
+    .container {
+        max-width: 300px;
+    }
+}
